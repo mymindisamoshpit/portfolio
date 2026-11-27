@@ -1,1 +1,25 @@
-
+{
+  "debug": "1",
+  "db": {
+    "db_host": "LOCALHOST",
+    "db_name": "azs_test",
+    "db_user": "fr_user",
+    "db_pass": "****"
+  },
+  "pos": [
+    {
+      "id": "POS_01",
+      "fr": {
+        "fr_ip_address": "192.168.1.100",
+        "fr_tcp_port": "7778",
+        "fr_timeout": "1000",
+        "fr_connection_type": "6",
+        "fr_protocol_type": "0",
+        "fr_use_ip_address": "true"
+      },
+      "ignore_z_report": "false",
+      "dept": "2",
+      "print_dept_report": "false"
+    }
+  ]
+}
